@@ -1,0 +1,13 @@
+ {
+   "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist/out-tsc",
+    "types": [], 
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  },
+  "files": [],
+  "include": ["src/**/*.ts"],
+  "exclude": ["src/test.ts", "src/**/*.spec.ts"]
+}
+
